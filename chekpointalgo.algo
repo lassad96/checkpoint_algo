@@ -1,0 +1,19 @@
+ALGORITHM length_number
+VAR
+i:INTEGER;
+vcompt:=0;
+wcompt:=0;
+str:="go my code algorithm";
+BEGIN
+FOR i FROM 0 to ste.length DO
+if(str[i]=" ")
+wcompt=wcompt+1;
+i:=i+1;
+else
+if ( str[i]:="a","e","i","o","u")
+vcompt:=vcomt+1;
+else
+(str[i]:="consone");
+END_FOR
+write(vcompt, wcompt);
+END
